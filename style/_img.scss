@@ -1,0 +1,24 @@
+.img {
+    margin: 0px auto;
+    max-width: 398px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .img {
+        max-width: 282px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img {
+        max-width: 251px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img {
+        max-width: 151px;
+    }
+}
