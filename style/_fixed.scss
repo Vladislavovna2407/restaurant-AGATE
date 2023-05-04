@@ -1,0 +1,33 @@
+    .fixed {
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        border: 1px solid #ffac1c;
+        border-radius: 50%;
+        background-color: #ffac1c;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .fixed::before {
+        content: "";
+        width: 28px;
+        height: 12.73px;
+        display: block;
+        margin: 0 auto;
+        margin-top: calc(50% - 6.365px);
+    }
+    
+    @media screen and (max-width: 500px) {
+        .fixed {
+            width: 30px;
+            height: 30px;
+            &::before {
+                margin: 0 auto;
+                width: 28px;
+                height: 10px;
+                margin-top: calc(50% - 5px);
+            }
+        }
+    }
