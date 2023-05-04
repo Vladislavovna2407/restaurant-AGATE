@@ -1,0 +1,16 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .box {
+        align-items: center;
+    }
+}
