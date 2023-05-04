@@ -1,0 +1,34 @@
+.dishes {
+    padding-bottom: 100px;
+    &__item {
+        padding-bottom: 60px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .dishes {
+        padding-bottom: 80px;
+        &__item {
+            padding-bottom: 48px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dishes {
+        padding: 0 24px 70px 52px;
+        &__item {
+            padding-bottom: 58px;
+        }
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .dishes {
+        padding: 0px 12px 60px 40px;
+        &__item {
+            padding-bottom: 28px;
+        }
+    }
+}
